@@ -1,0 +1,46 @@
+.Logo_M{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    padding: 2rem 0;
+    gap: 1rem;
+}
+
+.Logo_M p {
+    width: 40%;
+    text-align: center;
+    padding: 0 4rem;
+}
+
+.social_networks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    margin: 1rem 0;
+
+}
+
+.social_networks img{
+    width: 50px;
+}
+
+.box_name_professional{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.box_name_professional p{
+    text-align: center;
+
+}
+
+.footer{
+    background-color: #252525;
+    color: #8a8fa3;
+}
