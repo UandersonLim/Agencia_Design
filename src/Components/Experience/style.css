@@ -1,0 +1,49 @@
+.Contain {
+  background-color: #32333c;
+  color: #f6f8fc;
+}
+
+.Work_Experience .text {
+  color: #f6f8fc;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #f6f8fc;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+main .Work_Experience {
+  width: 48%;
+  margin-bottom: 3rem;
+}
+
+.Work_Experience h3 {
+  margin-top: 1rem;
+  color: #32333c;
+}
+
+.Work_Experience p {
+  margin-bottom: 1rem;
+  color: #8a8fa3;
+  text-align: center;
+}
+
+.box_yellow_line {
+  display: flex;
+  justify-content: center;
+}
+
+.yellow_line {
+  width: 70px;
+  border: 2px solid #feb633;
+  margin: 1rem 0;
+}
+
+
+

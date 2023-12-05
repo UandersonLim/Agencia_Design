@@ -7,9 +7,6 @@ import Behance from "../../../public/assets/behance.png";
 import GooGle_Plus from "../../../public/assets/google-plus.png";
 import './style.css';
 
-
-
-
 const Footer = (props) => {
   return (
     <footer className={props.eventType === 'Dark' ? 'footer' : null}>

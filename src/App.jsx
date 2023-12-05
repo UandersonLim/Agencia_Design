@@ -1,6 +1,6 @@
 import Head from './Components/Header/index.jsx';
 import Banner from './Components/Banner/index.jsx';
-import { Work_experience } from './Components/Main/index.jsx';
+import { Work_experience } from './Components/Experience/index.jsx';
 import Footer from './Components/Footer/index.jsx';
 import { useState } from 'react';
 
@@ -11,16 +11,9 @@ function App() {
   
 const [theme, setTheme] = useState(light)
 
-
-
 const togglerTheme = () =>{
-  if(theme === light){
-    return setTheme(Dark)
-  }else{
-    return setTheme(light)
-  }
-}
-
+    setTheme(theme === light ? Dark : light)
+};
 
   return (
     <>

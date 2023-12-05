@@ -2,8 +2,11 @@ import banner from "../../../public/assets/banner.png";
 import "./style.css";
 
 const Banner = (props) => {
+
+  const Theme = props.eventType;
+  
   return (
-    <section className={(props.eventType === "Dark" ? "Banner_Theme" : null)} >
+    <section className={(Theme === "Dark" ? "Banner_Theme" : null)} >
       <div className="box_banner">
         <figure>
           <img src={banner} alt="banner" />

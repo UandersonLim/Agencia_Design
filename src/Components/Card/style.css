@@ -1,0 +1,36 @@
+.Card {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f6f8fc;
+}
+
+.Card section, time, h4, label, p {
+  text-align: start;
+  width: 100%;
+}
+
+.Card section {
+  width: 350px;
+  flex-direction: column;
+  text-align: start;
+  padding: 4rem 2rem;
+  border: 1px solid #8a8fa3;
+}
+
+main time,
+label {
+  color: #8a8fa3;
+}
+
+.Card section p {
+  color: #8a8fa3;
+  margin-top: 2rem;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .Card {
+    justify-content: center;
+    align-items: center;
+  }
+}
